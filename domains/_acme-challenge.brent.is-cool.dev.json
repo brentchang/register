@@ -1,7 +1,7 @@
 {
     "description": "INFO8601 Course Let's Encrypt experience",
     "domain": "is-cool.dev",
-    "subdomain": "brent",
+    "subdomain": "_acme-challenge.brent",
 
     "owner": {
         "repo": "https://github.com/brentchang/register",
@@ -9,7 +9,7 @@
     },
 
     "record": {
-        "TXT": ["example_verification=1234567890"],
+        "TXT": ["xTDWhr1SuqRZG8tjlG7X0P0XWf38BA6CjwrV1uVsfl0"],
         "CAA": [
             { "flags": 0, "tag": "issue", "value": "letsencrypt.org" },
             { "flags": 0, "tag": "issuewild", "value": "sectigo.com" }
